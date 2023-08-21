@@ -1,0 +1,40 @@
+.form {
+  display: inline-block;
+  text-align: left;
+}
+
+.formInput {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.inputLabel {
+  color: rgb(63, 75, 82);
+  font-weight: 700;
+}
+
+.input {
+  width: 170px;
+  height: 30px;
+  border-radius: 5px;
+  margin-left: 20px;
+  padding-left: 10px;
+  border: 1px solid rgb(108, 109, 134);
+}
+.contactFormBtn {
+  width: 600px;
+  margin: auto;
+  text-align: center;
+}
+.addContactBtn {
+  background-color: #c52f02;
+  color: #fff;
+  padding: 6px 15px;
+  margin-left: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.addContactBtn:hover {
+  cursor: pointer;
+}

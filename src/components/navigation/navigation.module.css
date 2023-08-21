@@ -1,0 +1,30 @@
+/* Style dla kontenera nawigacji */
+.container {
+  background-color: #333;
+  padding: 20px;
+}
+
+/* Style dla listy nawigacji */
+.navList {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+/* Style dla elementów listy */
+.navItem {
+  margin: 0 10px;
+}
+
+/* Style dla linków nawigacji */
+.navLink {
+  display: flex;
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.navLink:hover {
+  background-color: #c52f02;
+}
